@@ -13,7 +13,7 @@ fn visit_dirs(dir: &Path) -> io::Result<()>
             let path = entry.path();
             if path.is_dir() 
             {
-                //visit_dirs(&path); 폴더안에 하위폴더에 파일들까지 출력할 때
+                //visit_dirs(&path); 폴더안에 하위폴더에 파일들까지 출력
             } else 
             {
                 i+=1;
