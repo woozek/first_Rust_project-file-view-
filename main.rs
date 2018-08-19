@@ -2,7 +2,6 @@ use std::io;
 use std::fs::{self, DirEntry};
 use std::path::Path;
 
-
 fn visit_dirs(dir: &Path) -> io::Result<()> 
 {
     let mut i = 0;
