@@ -54,4 +54,3 @@ fn main()
     println!("\n{:?} 폴더의 파일 목록\n",path);
     visit_dirs(&path);
 }
-
